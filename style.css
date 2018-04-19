@@ -69,12 +69,9 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-    
-    !<---background-of-first-page--->
-    
-  background-image: url("assets/fortnite_thumb_0.jpg");
-  color: transparent;
-    
+/*background of the first page*    
+  background: #18BC9C;
+  color: white;
 }
 header .container {
   padding-top: 100px;
