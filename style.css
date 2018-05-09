@@ -67,10 +67,10 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto;
 }
+
 header {
   text-align: center;
-/*background of the first page*    
-  background: #18BC9C;
+  background: #2C3E50; <----1stpg to the myinterst---->
   color: white;
 }
 header .container {
@@ -91,6 +91,7 @@ header .intro-text .name {
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
+
 }
 @media (min-width: 768px) {
   header .container {
@@ -99,10 +100,17 @@ header .intro-text .skills {
   }
   header .intro-text .name {
     font-size: 4.75em;
-  }
+      color: white             
+ }      
+
   header .intro-text .skills {
     font-size: 1.75em;
-  }
+      color: white        
+  } <----1stpg-text^^---->
+}
+
+#profile {
+            backface-visibility: visible
 }
 .navbar-custom {
   background: #2C3E50;
@@ -115,7 +123,7 @@ header .intro-text .skills {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  color: white;
+  color: white; <---NavigationbarTitle--->
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -127,10 +135,10 @@ header .intro-text .skills {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: white;
+  color: white; <---NaviBarRightwords--->
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: aqua;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
