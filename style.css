@@ -113,7 +113,7 @@ header .intro-text .skills {
             backface-visibility: visible
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: #fffd; <---NavBarcolor--->
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -123,7 +123,7 @@ header .intro-text .skills {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  color: white; <---NavigationbarTitle--->
+  color: #2C3E50; <---NavigationbarTitle--->
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -135,7 +135,7 @@ header .intro-text .skills {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: white; <---NaviBarRightwords--->
+  color: #2C3E50; <---NaviBarRightwords--->
 }
 .navbar-custom .navbar-nav li a:hover {
   color: aqua;
