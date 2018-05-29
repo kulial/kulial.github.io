@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #4e60d8;
   outline: none;
 }
 h1,
@@ -58,7 +58,7 @@ hr.star-light:after {
   color: white;
 }
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: aqua;
 }
 hr.star-primary:after {
   background-color: white;
@@ -76,16 +76,15 @@ hr.star-primary:after {
 
 header {
   text-align: center;
-  background: #2C3E50; <----1stpg to the myinterst---->
+  background: #4e60d8; 
   color: white;
-}
+} onepagetoporfolio
 header .container {
   padding-top: 100px;
   padding-bottom: 50px;
 }
 header img {
   display: block;
-  margin: 0 auto 20px;
     background-image: url()
 }
 header .intro-text .name {
@@ -110,57 +109,57 @@ header .intro-text .skills {
       color: white             
  }      
 
-  header .intro-text .skills {
+header .intro-text .skills {
     font-size: 1.75em;
       color: white        
-  } <----1stpg-text^^---->
-}
+  } opagetext
 
 #profile {
             backface-visibility: visible
 }
 .navbar-custom {
-  background: #fffd; <---NavBarcolor--->
+  background: #fffd; 
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
-}
+} navbarcolor
 .navbar-custom a:focus {
   outline: none;
 }
+
 .navbar-custom .navbar-brand {
-  color: #2C3E50; <---NavigationbarTitle--->
-}
+  color: white; 
+} 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: white;
+  color: #4e60d8;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: #2C3E50; <---NaviBarRightwords--->
-}
+  color: white; 
+} 
 .navbar-custom .navbar-nav li a:hover {
-  color: aqua;
+  color: #4e60d8;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-  color: white;
+  color: #4e60d8;
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: #4e60d8;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #4e60d8;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -170,9 +169,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #4e60d8;
   color: white;
-  border-color: #18BC9C;
+  border-color: #4e60d8;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -193,6 +192,10 @@ header .intro-text .skills {
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
   }
+  
+  section.school {
+  background: #4e60d8
+  }
 }
 section {
   padding: 100px 0;
@@ -202,7 +205,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: #4e60d8;
   color: white;
 }
 @media (max-width: 767px) {
@@ -304,7 +307,7 @@ section.success {
   top: 0;
   opacity: 1;
 }
-.floating-label-form-group-with-focus label {
+.floating-label-form-group-w#18BC9Cus label {
   color: #18BC9C;
 }
 form .row:first-child .floating-label-form-group {
@@ -353,7 +356,7 @@ footer .footer-below {
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
-.open .dropdown-toggle.btn-primary {
+.open .dropdown-tog#1a242f-primary {
   color: white;
   background-color: #1a242f;
   border-color: #161f29;
@@ -519,3 +522,4 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+
